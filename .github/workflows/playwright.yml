@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ main, master ]
   schedule:
-   - crop : '45 15 * * 8'
+   - crop : '45 15 * * *'
 
 jobs:
   test:
